@@ -15,4 +15,7 @@ class MenuItem (models.Model):
     inventory = models.SmallIntegerField()
     
     def __str__(self):
-        return self.title
+        return self.title + ' : ' + '{:.2f}'.format(self.price)
+    
+    def __eq__(self, other):
+        return (self.title == other.title) and (self.price == other.price)
