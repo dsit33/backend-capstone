@@ -19,3 +19,8 @@ In order to properly run the project on your local machine, there are some thing
 - [ ] using a terminal navigated to the project directory, run 'python manage.py makemigrations' and 'python manage.py migrate'
 - [ ] in the same working directory, run 'python manage.py runserver'
 - [ ] copy and paste the address into your browser
+
+### Testable URLS
+- /restaurant/menu
+- restaurant/menu/<int:pk>
+- /restaurant/booking

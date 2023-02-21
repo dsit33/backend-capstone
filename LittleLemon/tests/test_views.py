@@ -1,4 +1,4 @@
-from django.test import TestCase, RequestFactory, Client
+from django.test import TestCase, Client
 from restaurant.models import Booking, MenuItem
 from restaurant.views import *
 from restaurant.serializers import *
